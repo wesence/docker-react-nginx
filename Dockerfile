@@ -137,7 +137,9 @@ RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
-RUN apk add --update nodejs nodejs-npm
+RUN apk add nodejs-current nodejs-npm
+
+RUN apk update
 
 EXPOSE 80
 
