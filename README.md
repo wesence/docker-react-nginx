@@ -4,12 +4,12 @@
 #### Usage
 
 ```
-docker pull wesence/docker-nginx
+docker pull wesence/react-nginx
 ```
 
 #### RUN
 
 ```
- docker run -it -p $HOST_PORT:80 wesence/docker-nginx 
+ docker run -it -p $HOST_PORT:80 wesence/react-nginx 
 ```
 
